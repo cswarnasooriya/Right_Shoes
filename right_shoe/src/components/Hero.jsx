@@ -3,7 +3,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 
 const Hero = () => {
-    const [imageUrl, setImageUrl] = useState('./shoe4.png');
+    const [imageUrl, setImageUrl] = useState('./s4.png');
 
     useEffect(()=>{
         setImageUrl(imageUrl)
@@ -46,26 +46,27 @@ const Hero = () => {
             </div>
         </section>
 
-        <section className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-[#2f3233] bg-[url('')] bg-cover bg-center">
+        <section className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-[#2f3233] bg-[url('/bg.png')] bg-cover bg-center">
             <img src={imageUrl} 
                 alt=""
-                width='610'
-                height='500'
+                width='760'
+                height='550'
                 className="object-center relative z-10 max-w-full h-auto"
              />
             <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
                 <div>
 
 
-                    <div style={{borderColor: imageUrl ==='./shoe1.png' ? '#ff6452': ''}}
+                    <div style={{borderColor: imageUrl ==='./s1.png' ? '#ff6452': '',}} 
                     className="border-2 border-solid rounded-xl border-transparent cursor-pointer max-sm:flex-1 ">
-                    <div className="flex justify-center items-center bg-[url('./blob.png)] bg-center bg-cover sm:w-40  sm:h-40 rounded-xl max-sm:p-4">
+                    <div className="flex justify-center items-center bg-[url('./bg.png)] bg-center bg-cover sm:w-40  sm:h-40 rounded-xl max-sm:p-4">
                         <img 
-                            src="./shoe1.png" 
+                            src="./s1.png" 
                             alt="shoe1" 
-                            width='127'
-                            height='103'
+                            width='133'
+                            height='110'
                             className="object-contain max-w-full h-auto"
+                            onClick={()=> setImageUrl("./s1.png")}
                         />
                     </div>
 
@@ -73,34 +74,38 @@ const Hero = () => {
                 </div>
 
                 <div>
-                    <div style={{borderColor: imageUrl ==='./shoe2.png' ? '#ff6452':''}}
+                    <div style={{borderColor: imageUrl ==='./s2.png' ? '#ff6452':'',}} 
                     className="border-2 border-solid rounded-xl border-transparent cursor-pointer max-sm:flex-1 ">
-                    <div className="flex justify-center items-center bg-[url('./blob.png)] bg-center bg-cover sm:w-40  sm:h-40 rounded-xl max-sm:p-4">
-                        <img 
-                            src="./shoe2.png" 
-                            alt="shoe1" 
-                            width='127'
-                            height='103'
-                            className="object-contain max-w-full h-auto"
-                        />
-                    </div>
+                        <div className="flex justify-center items-center bg-[url('./bg.png)] bg-center bg-cover sm:w-40  sm:h-40 rounded-xl max-sm:p-4">
+                            <img 
+                                src="./s2.png" 
+                                alt="shoe1" 
+                                width='133'
+                                height='110'
+                                className="object-contain max-w-full h-auto"
+                                onClick={()=> setImageUrl("./s2.png")}
+                            />
+                        </div>
 
                     </div>
                 </div>
 
 
                 <div>
-                    <div style={{borderColor: imageUrl ==='./shoe3.png' ? '#ff6452':''}}
+                    <div style={{
+                        borderColor: imageUrl ==='./s3.png' ? '#ff6452':'',
+                        }}
                     className="border-2 border-solid rounded-xl border-transparent cursor-pointer max-sm:flex-1 ">
-                    <div className="flex justify-center items-center bg-[url('./blob.png)] bg-center bg-cover sm:w-40  sm:h-40 rounded-xl max-sm:p-4">
-                        <img 
-                            src="./shoe3.png" 
-                            alt="shoe1" 
-                            width='127'
-                            height='103'
-                            className="object-contain max-w-full h-auto"
-                        />
-                    </div>
+                        <div className="flex justify-center     items-center bg-[url('./smbg.png)] bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
+                            <img 
+                                src="./s3.png" 
+                                alt="shoe1" 
+                                width='133'
+                                height='110'
+                                className="object-contain max-w-full h-auto"
+                                onClick={()=> setImageUrl("./s3.png")}
+                            />
+                        </div>
 
                     </div>
                 </div>
