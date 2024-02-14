@@ -59,7 +59,7 @@ const Hero = () => {
 
                     <div style={{borderColor: imageUrl ==='./s1.png' ? '#ff6452': '',}} 
                     className="border-2 border-solid rounded-xl border-transparent cursor-pointer max-sm:flex-1 ">
-                    <div className="flex justify-center items-center bg-[url('./bg.png)] bg-center bg-cover sm:w-40  sm:h-40 rounded-xl max-sm:p-4">
+                    <div className="flex justify-center items-center bg-red bg-center bg-cover sm:w-40  sm:h-40 rounded-xl max-sm:p-4">
                         <img 
                             src="./s1.png" 
                             alt="shoe1" 
