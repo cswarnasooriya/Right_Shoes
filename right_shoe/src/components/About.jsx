@@ -63,8 +63,8 @@ const About = () => {
 
     <div>
         <Card img='/truck.png' text='Enjoy' title='Free Shipping'/>
-        <Card img='' text='' title=''/>
-        <Card img='' text='' title=''/>
+        <Card img='/sheid.png' text='' title=''/>
+        <Card img='/sup.png' text='' title=''/>
     </div>
 
 
