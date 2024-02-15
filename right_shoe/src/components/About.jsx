@@ -1,6 +1,29 @@
 import React from 'react'
 
 const About = () => {
+
+    const Card =({img, title,text}) => {
+        return(
+            <div className="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16 hoverBtn" >
+                <div className="w-11 h-11 justify-center items-center text-white bg-[#ff6452] rounded-full">
+                    <img 
+                        src={img} 
+                        alt="card"
+                        width='24'
+                        height='24'
+
+                    />
+                </div>
+                <h1 className="mt-5 font-mono text-3xl leading-normal font-bold">
+                    {title}
+                </h1>
+
+                <p className="mt-3 break-words text-lg leading-normal text-[slate-gray]">
+                    {text}
+                </p>
+            </div>
+        )
+    }
   return (
     <>
     <div id='about-us' className="lg:py-24 py-12 lg:px-16 px-8">
@@ -39,11 +62,13 @@ const About = () => {
 
 
     <div>
-
+        <Card img='/truck.png' text='Enjoy' title='Free Shipping'/>
+        <Card img='' text='' title=''/>
+        <Card img='' text='' title=''/>
     </div>
 
 
-    
+
     </>
   )
 }
