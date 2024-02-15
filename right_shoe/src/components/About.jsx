@@ -61,10 +61,12 @@ const About = () => {
     </div>
 
 
-    <div>
-        <Card img='/truck.png' text='Enjoy' title='Free Shipping'/>
-        <Card img='/sheid.png' text='' title=''/>
-        <Card img='/sup.png' text='' title=''/>
+    <div className="lg:px-16 px-8 py-10">
+        <div className=" cursor-pointer justify-center flex flex-wrap gap-9">
+            <Card img='/truck.png' text='Enjoy seamless shopping with our comlimentary shipping service.' title='Free Shipping' />
+            <Card img='/sheid.png' text='Experience worry-free transactions with our secure payment options.' title='Secure Payment'/>
+            <Card img='/sup.png' text='Our dedicated team is here to assist you every step of the way.' title='Love to help you'/>
+        </div>
     </div>
 
 
