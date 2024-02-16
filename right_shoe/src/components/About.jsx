@@ -9,8 +9,8 @@ const About = () => {
                     <img 
                         src={img} 
                         alt="card"
-                        width='24'
-                        height='24'
+                        width='35'
+                        height='35'
 
                     />
                 </div>
