@@ -3,6 +3,7 @@ import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Offer from "../components/Offer"
 import Products from "../components/Products"
+import Testimonials from "../components/Testimonials"
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Products/>
       <About/>
       <Offer/>
+      <Testimonials/>
     </div>
   )
 }
