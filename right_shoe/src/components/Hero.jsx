@@ -98,12 +98,12 @@ const Hero = () => {
                     className="border-2 border-solid rounded-xl border-transparent cursor-pointer max-sm:flex-1 ">
                         <div className="flex justify-center     items-center bg-[url('./smbg.png)] bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
                             <img 
-                                src="./s1.png" 
+                                src="./s3.png" 
                                 alt="shoe1" 
                                 width='133'
                                 height='110'
                                 className="object-contain max-w-full h-auto"
-                                onClick={()=> setImageUrl("./s1.png")}
+                                onClick={()=> setImageUrl("./s3.png")}
                             />
                         </div>
 
